@@ -1,0 +1,57 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 PRESERVE8                    ; Indicate the code
+                                                             here preserve 
+    2 00000000         ; 8 byte stack alignment
+    3 00000000                 THUMB                        ; Indicate THUMB co
+                                                            de is used
+    4 00000000                 AREA             |.text|, CODE, READONLY ; Start
+                                                             of CODE area
+    5 00000000                 EXPORT           fact
+    6 00000000                 ENTRY
+    7 00000000         fact    FUNCTION
+    8 00000000         ; expects arg in R0; returns val in R0
+    9 00000000 B506            PUSH             {R1,R2, LR} ; save working regi
+                                                            sters and LR
+   10 00000002 4601            MOV              R1, R0
+   11 00000004 FA91 F2A1       RBIT             R2, R1
+   12 00000008 EA4F 6012       LSR              R0, R2, #24
+   13 0000000C E8BD 4006       POP              {R1,R2, LR} ; restore saved reg
+                                                            isters
+   14 00000010 4770            BX               LR
+   15 00000012                 ENDFUNC
+   16 00000012                 END                          ; End of file
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
+erwork --depend=.\objects\factorial.d -o.\objects\factorial.o -IE:\c\assignment
+-2-asteroids-coolguy420-master\asteroids\RTE -IC:\Keil_v5\ARM\PACK\Keil\LPC4000
+_DFP\2.0.0\Device\Include -IC:\Keil_v5\ARM\CMSIS\Include --predefine="__UVISION
+_VERSION SETA 521" --predefine="CORE_M4 SETA 1" --list=.\listings\factorial.lst
+ src\factorial.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+.text 00000000
+
+Symbol: .text
+   Definitions
+      At line 4 in file src\factorial.s
+   Uses
+      None
+Comment: .text unused
+fact 00000000
+
+Symbol: fact
+   Definitions
+      At line 7 in file src\factorial.s
+   Uses
+      At line 5 in file src\factorial.s
+Comment: fact used once
+2 symbols
+335 symbols in table
