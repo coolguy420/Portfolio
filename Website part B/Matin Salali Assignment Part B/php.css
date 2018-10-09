@@ -1,0 +1,13 @@
+div{
+	box-sizing: border-box;
+	border-radius: 5px;
+	border: 3px solid #aaff80;
+	background-color: #fff;
+	text-decoration: none;
+	font-family: Arial, "Times New Roman";
+}
+
+
+ul{
+	text-decoration: none;
+}

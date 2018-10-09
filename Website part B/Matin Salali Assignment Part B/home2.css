@@ -1,0 +1,300 @@
+body { 
+    height:100%; /* background image is at 100% height */ 
+    background-color:#e6e6e6;
+    background-size:contain; /* fills the page up with the background image */ 
+    color:#000;
+    font-size:1.8rem; 
+    font-family: "Times New Roman", arial, Georgia ;
+    background-image: url('wood2.jpg');
+	background-size: cover;
+	}
+
+body p{
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+
+.top-header{
+	font-family: arial, "Times New Roman", Georgia, Serif, Sans-serif;  /* these are the different supported fonts for the header */
+	font-size: 5vw;  /* changes the font size, the reason i used em is because it can resize as the page resizes */
+	min-height: 100px;  /* this sets the min hight to 100px */
+	background-image: url(banner2.jpg);  /* this is the back-ground url, it selects the image and sets it to background. */
+	background-size: cover;  /* This set the image to cover the whole background.*/
+	width: 97%;  /* This sets the width of the page to 97%, also helpsm website viewing on mobile */
+	border:1px solid #000;  /* This sets the borders of the header to 1 px with a solid line and the color #00ffaa */
+	text-align: center;  /* This sets the text align to position center */
+	color: #000;
+	border-radius: 5px;
+	margin:20px;
+}
+
+#wrapper{
+	height: 100%;
+	width: 70%;
+	margin:0;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:auto;
+}
+
+
+h3{
+	padding: 1%;
+}
+
+nav{
+	border-radius: 5px;
+	background-color: #e6e6e6;  	/* the background color ofmy nav is set to red */
+	text-decoration: none; /* this makes sure there are no text decorations for example underlining and blod fonts */
+	display: inline-block;
+	width: 100%;
+}
+a{ 
+	display: inline-block;
+	padding-bottom: 10px;
+	padding: 10px;
+	text-decoration: none;
+	color: #000;
+}
+nav ul li{
+	display: inline-block;
+	text-decoration: none;
+	width: 16%;
+	margin:auto;
+	float: left;
+	text-align:center;
+	position: relative;
+	padding-bottom: 2%;
+	}
+
+nav a:hover{
+	color:#e6e6e6;
+	text-align: center;
+	text-decoration: none;
+	background-color: #000;
+	display: inline-block;
+}
+
+.content{
+	width: 100%;
+	background-color: #f2f2f2;
+	margin-bottom: 2%;
+	border-radius: 5px;
+	clear:both;
+}
+.content img{
+	width: 80%;
+	padding-left: 12%; 
+	padding-top: 2%;
+}
+
+.content p{
+	padding: 1%;
+}
+.info{
+	background-color: #e6e6e6;
+	margin-bottom: 0.5%;
+	border-radius: 5px;
+	clear:both;
+}
+.info img{
+	width: 80%;
+	padding-left: 12%; 
+	padding-top: 2%;
+}
+
+.info p{
+	padding:1%;
+}
+
+button {
+    background-color: #000;
+    border-color: #ccc;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: inline-block;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left:10%;
+    width: 18%;
+    border-radius: 9px;
+    margin-bottom: 2%;
+    }
+
+footer {
+	background-color: #e6e6e6;
+	border: 2px solid #000;
+	padding: 5px;
+	margin:20px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+	clear: both;
+}
+
+footer p{
+	color: #000;
+}
+
+footer div{
+	color: #000;
+
+}
+
+
+@media only screen and (min-width: 175px) and (max-width:700px){
+
+
+body { 
+    height:100%; /* background image is at 100% height */ 
+    background-color:#FFFF88;
+    background-size:contain; /* fills the page up with the background image */ 
+    color:#fff;
+    font-size:1.8rem; 
+    font-family: Arial, Serif, Sans-serif, "Times New Roman", Georgia ;
+    background-image: url('Wood.jpg');
+	background-size: cover;
+	}
+
+body p{
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.top-header{
+	font-family: "Times New Roman", Georgia, Serif, Sans-serif;  /* these are the different supported fonts for the header */
+	font-size: 5vw;  /* changes the font size, the reason i used em is because it can resize as the page resizes */
+	min-height: 100px;  /* this sets the min hight to 100px */
+	background-image: url(banner.png);  /* this is the back-ground url, it selects the image and sets it to background. */
+	background-size: cover;  /* This set the image to cover the whole background.*/
+	width: 97%;  /* This sets the width of the page to 97%, also helpsm website viewing on mobile */
+	border:1px solid #43220a;  /* This sets the borders of the header to 1 px with a solid line and the color #00ffaa */
+	text-align: center;  /* This sets the text align to position center */
+	color: #e99a62;
+	margin:20px;
+
+
+}
+
+#wrapper{
+	height: 100%;
+	width: 80%;
+	margin:0;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:auto;
+}
+
+h3{
+	padding: 1%;
+}
+
+nav{
+	border-radius: 5px;
+	text-decoration: none; /* this makes sure there are no text decorations for example underlining and blod fonts */
+	display: block;
+	width: 100%;
+	margin-bottom: 10%;
+}
+
+a{ 
+	display:block;
+	padding-bottom: 10px;
+	padding: 10px;
+	text-decoration: none;
+	color: #fff;
+	background-color: #43220a;
+	margin: auto;
+}
+nav ul li{
+	display:block;
+	text-decoration: none;
+	width: 87%;
+	text-align:center;
+	padding-bottom: 2%;
+
+
+}
+
+nav a:hover{
+	color:#000000;
+	text-align: center;
+	text-decoration: none;
+	background-color: #808080;
+	display:block;
+}
+
+.content{
+	width: 100%;
+	background-color: #43220a;
+	margin-bottom: 2%;
+	border-radius: 5px;
+	clear:both;
+}
+.content img{
+	width: 80%;
+	padding-left: 12%; 
+	padding-top: 2%;
+}
+
+.content p{
+	padding: 1%;
+}
+.info{
+	width: 100%;
+	background-color: #43220a;
+	margin-bottom: 0.5%;
+	border-radius: 5px;
+	clear:both;
+}
+.info img{
+	width: 100%;
+	width: 80%;
+	padding-left: 12%; 
+	padding-top: 2%;
+}
+
+.info p{
+	padding:1%;
+}
+
+button {
+    background-color: #43220a;
+    border-color: #ccc;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: inline-block;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left:10%;
+    width: 18%;
+    margin-bottom: 2%;
+}
+
+footer {
+	background-color: #43220a;
+	border: 2px solid #000;
+	padding: 5px;
+	margin:20px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+footer p{
+	color: #fff;
+}
+
+footer div{
+	color: #fff;
+
+}
+
+}

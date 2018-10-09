@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Home Page</title>
+	<meta name="viewport" content="width-device-width initial-scale=1.0"/>
+	<link id="style1" rel="stylesheet" type="text/css" href="form.css" />
+	<meta charset="UTF-8" />
+</head>
+<body>
+	<div id="wrapper">
+		<div class ="top-header">Chollerton Tearooms</div>
+
+		<nav>
+			<ul>
+				<li><a href="homepage.html" accesskey="h" tabindex="1"><span>Home</span></a></li>
+				<li><a href="findOutMore.html" accesskey="f" tabindex="2"><span>Find out more</span></a></li>
+				<li><a href="OfferPage.html" accesskey="o" tabindex="3"><span>Offers</span></a></li>
+				<li><a href="credits.htlm" accesskey="c" tabindex="4"><span>Credit</span></a></li>
+				<li><a href="admin.php" accesskey="a" tabindex="5"><span>Admin</span></a></li>
+				<li><a href="Wireframe.pdf" accesskey="w" tabindex="6"><span>Wireframe</span></a></li>
+			</ul>
+		</nav>
+
+	<div class="content">
+		<H2>Find out more</h2>
+		<fieldset>
+		<legend>About you</legend>
+		<p>If you liked what you saw and would like to find out more about us please enter the following information in the relevant boxes.
+		 If you'd like to be contacted <strong>please provide the relevant information</strong>. For example, if you want to be contacted via SMS provide a
+		 valid mobile number, if you want to be contacted by post, please provide an address, if you want to be contacted via e-mail, provide a
+		 valid email. Boxes with a "*" next to it are mandetory fields and <strong>have</strong> to be filled.</p>
+			<form id="form" action="formProcess.php" method="post">
+    		<div>
+		        <label for="forename">Forename: <strong>*</strong></label>
+		         <input type="text" name="firstname" id="forename" required/><br />
+
+		        <label for="surname">Surname: <strong>*</strong></label>
+		        <input type="text" name="lastname" id="surname" required/><br />
+
+		        <label for="landLineTelNo">Telephone Number</label>
+		        <input type="tel" name="number" id="landLineTelNo"/> <br />
+
+		        <label>Male</label>
+				<input type="radio" name="gender" id="male" value="male" checked="checked"/><br />
+				<label>Female</label>
+				<input type="radio" name="gender" id="female" value="female"/><br />
+				<label>Other</label>
+				<input type="radio" name="gender" id="other" value="other"/>
+    		</div>
+    	
+
+ 	<br />
+
+
+ 		
+		
+		<p>Please select only one of the following methods</p>
+		<p>Please provide the relevate information relating to the way you want to be contacted. 
+		For example, if you want to recieve information via SMS, provide your Mobile number etc.</p>
+		<label for="mobileTelNo">Mobile Number</label>
+		<input type="tel" name="mobile" id="mobileTelNo"  > <br />
+		<label for="email">E-mail:</label>
+		<input type="email" name="email" id="email" > <br />
+		<label for="sendMethod" >Email</label>
+		<input type="radio" name="contact" id="sendMethod" value="Email" checked="checked"><br />
+		<label for="sendMethod2">Post</label>
+		<input type="radio" name="contact" id="sendMethod2" value="Post"><br />
+		<label for="sendMethod3">SMS</label>
+		<input type="radio" name="contact" id="sendMethod3" value="SMS">
+		<br />
+	
+
+
+ 	
+ 	
+ 	<div>
+ 	<label for="postalAddress">House Number</label>
+ 	<input type="text" name="address1" id="postalAddress" > <br />
+
+ 	<label for="postalAddress2">Street</label>
+ 	<input type="text" name="address2" id="postalAddress2" ><br />
+
+ 	<label for="city">City</label>
+ 	<input type="text" name="city" id="city" required> <br />
+
+ 	<label for="country">Country</label>
+ 	<input type="text" name="country" id="country" required><br />
+
+ 	<label for="postcode">Postcode</label>
+ 	<input type="text" name="postcode" id="postcode" required>
+	<br />
+ 	</div>
+ 	
+
+
+ 	<br />
+
+ 	
+ 	<select name="room">
+  		<option class="op" value="Family" id="family">Family</option>
+  		<option class="op" value="Couple" id="couple">Couple</option>
+ 		<option class="op" value="Single" id="single">Single</option>
+	</select>
+	<br />
+
+
+
+	
+		<label>Comments</label>
+		<textarea name="comment" rows="10" cols="30"></textarea>
+		<br />
+		<input type="checkbox" name="terms" id="terms" required>I agree to all terms and conditions that Chollerton Tearooms has.
+		<div>
+        	<button type="submit">Submit</button>
+        	<button type="reset">Clear form</button>
+    	</div>
+		</form>
+	</fieldset>
+	</div>
+	</div>
+
+
+	<footer>
+		<div>© 2015 Chollerton Tearoom and B&amp;B
+		All rights reserved.
+		</div>
+
+		<div>Latest news
+		Our new lunchtime menu is launching next week. Come back then to view it and for exclusive offers.
+		</div>
+
+		<div>
+		<p>Contact us
+		Chollerton Tea Room and B&amp;B, Chollerton, Northumberland, NE46</p>
+		</div>
+
+	</footer>
+
+</body>
