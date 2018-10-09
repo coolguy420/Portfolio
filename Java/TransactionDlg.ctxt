@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=p
+comment0.target=TransactionDlg(MainMenu)
+comment1.params=
+comment1.target=void\ setCreditMode()
+comment1.text=\r\n\ Credit/debit\ logic\ methods\r\n
+comment2.params=
+comment2.target=void\ setDebitMode()
+comment3.params=
+comment3.target=boolean\ isInCreditMode()
+comment4.params=
+comment4.target=boolean\ isInDebitMode()
+comment5.params=evt
+comment5.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment5.text=\r\n\ Actions\:\ on\ click\ of\ 'Submit',\ make\ a\ transaction\ record\ and\ add\ to\ database;\r\n\ \ \ \ \ \ \ \ \ \ on\ click\ of\ 'Hide',\ hide\ the\ dialogue\ window.\r\n
+comment6.params=
+comment6.target=boolean\ createRcdOk()
+comment6.text=\r\n\ createRcdOk()\ -\ Does\ the\ actual\ work\ of\ getting\ data\ from\ the\ two\r\n\ \ \ TextFields,\ validating\ it,\ creating\ a\ transaction\ record\ and\ adding\r\n\ \ \ it\ to\ the\ parent's\ pendingTransactions\ list.\r\n\r\n\ Returns\ true\ if\ data\ valid\ and\ record\ added,\ \r\n\ \ \ \ \ \ \ \ false\ if\ problems\ with\ data\ (account\ ID\ or\ amount).\r\n\r\n\ Validation\:\ \r\n\ \ \ Account\ ID\ must\ be\ an\ ID\ that\ actually\ occurs\ in\ the\ parent's\ \r\n\ \ \ \ \ \ collection\ of\ accounts.\r\n\ \ \ Amount\ string\ should\ be\ numeric\ and\ positive.\r\n\r\n\ If\ amount\ string\ contains\ a\ decimal\ point,\ read\ it\ as\ Float,\ multiply\ it\r\n\ \ \ by\ 100,\ and\ cast\ to\ int;\ if\ there\ is\ no\ decimal\ point,\ parse\ it\r\n\ \ \ directly\ as\ int.\ \r\n\r\n\ Creating\ the\ Transaction\:\r\n\ \ \ If\ it\ is\ a\ debit\ Transaction\ (query\ isInDebitMode())\ make\ the\r\n\ \ \ \ \ amount\ negative\:\ flip\ the\ sign;\ otherwise\ (credit\ Transaction)\r\n\ \ \ \ \ leave\ it\ positive.\r\n\ \ \ Construct\ the\ Transaction\ the\ account\ ID\ and\ this\ amount\ value\r\n\ \ \ Add\ it\ to\ the\ pendingTransactions\ list.\r\n\ \ \ Display\ a\ confirmation\ message\ on\ the\ console.\r\n
+numComments=7
