@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/forename"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.16"
+                android:ems="10"
+                android:hint="Forename"
+                android:inputType="textPersonName"
+                android:maxLength="25" />
+
+            <EditText
+                android:id="@+id/surname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.16"
+                android:ems="10"
+                android:hint="Surname"
+                android:inputType="textPersonName"
+                android:maxLength="25" />
+
+            <EditText
+                android:id="@+id/housenumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.16"
+                android:ems="10"
+                android:hint="House Number"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/street"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.16"
+                android:ems="10"
+                android:hint="Street"
+                android:inputType="text|textPersonName"
+                android:maxLength="25" />
+
+            <EditText
+                android:id="@+id/town"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.16"
+                android:ems="10"
+                android:hint="Town"
+                android:inputType="textPersonName"
+                android:maxLength="25" />
+
+            <EditText
+                android:id="@+id/county"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.16"
+                android:ems="10"
+                android:hint="County"
+                android:inputType="textPersonName"
+                android:maxLength="25" />
+
+            <EditText
+                android:id="@+id/postcode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.16"
+                android:ems="10"
+                android:hint="Postcode"
+                android:inputType="textCapWords"
+                android:textAllCaps="true" />
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.16"
+                android:ems="10"
+                android:hint="Phone Number"
+                android:inputType="phone"
+                android:maxLength="11" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.16"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/save"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="4dp"
+                android:background="@color/colorAccent"
+                android:text="SAVE"
+                android:textAlignment="center"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/close"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="4dp"
+                android:background="@color/colorAccent"
+                android:elevation="0dp"
+                android:text="CLOSE"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/delete"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_alignTop="@+id/save"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="4dp"
+                android:background="@color/colorAccent"
+                android:text="Delete"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textColorLink="@android:color/holo_blue_bright" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
