@@ -1,0 +1,419 @@
+body{
+	text-align: center;	 /* This sets the text align to position center */
+	background:url('Wood.jpg');
+	background-size: cover;
+	width: 85%;
+	margin: auto;
+}
+
+
+.top-header{
+	font-family: "Times New Roman", Georgia, Serif, Sans-serif;  /* these are the different supported fonts for the header */
+	font-size: 5vw;  /* changes the font size, the reason i used em is because it can resize as the page resizes */
+	min-height: 100px;  /* this sets the min hight to 100px */
+	background:url('wallpaper.jpg');  /* this is the back-ground url, it selects the image and sets it to background. */
+	background-size: cover;  /* This set the image to cover the whole background.*/
+	opacity: 0.7;
+	width: 97%;  /* This sets the width of the page to 97%, also helpsm website viewing on mobile */
+	border:1px solid #43220a;  /* This sets the borders of the header to 1 px with a solid line and the color #00ffaa */
+	text-align: center;  /* This sets the text align to position center */
+	color: #e99a62;
+	margin:20px;
+	position: relative;
+
+
+}
+
+nav{ /* here are the css i have selected for my nav bar. */
+
+	background-color: #43220a;  	/* the background color ofmy nav is set to red */
+	text-decoration: none; /* this makes sure there are no text decorations for example underlining and blod fonts */
+	font-family: "Times New Roman", Georgia, Serif, Sans-serif;
+	font-size: 2em;
+	display: inline-block;
+	width: 100%;
+
+}
+
+nav a{
+	color: #F5FFFA;
+	text-align: center;
+	text-decoration: none;
+	font-family: "Times New Roman", Georgia, Serif, Sans-serif;
+	font-size: 1.5vw;
+	padding-bottom:5px;
+	padding-top: 5px;
+	width: 100%;
+	display: inline-block;
+
+
+
+}
+nav ul{
+	height: 20px;
+	color:#43220a;
+	width:100%;
+	list-style: none;
+	text-align:center;
+	margin:auto;
+	height:40px;
+	padding-top:8px;
+	display: inline-block;
+
+}
+
+nav ul li{
+	float: left;
+	text-align:center;
+	position: relative;
+	width: 15%;
+	margin:auto;
+	display: inline-block;
+
+
+}
+
+nav a:hover{  /* these are the different  css code and styling i have for my nav bar when you hover over them */
+	color:#000000;
+	text-align: center;
+	text-decoration: none;
+	font-family:"Times New Roman", Georgia, Serif, Sans-serif;
+	font-size: 1.5vw;
+	background-color: #808080;
+	display: inline-block;
+}
+
+nav a:active{ /* these are the different  css code and styling i have for the nav bar links when they are active */
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	font-family: "Times New Roman", Georgia, Serif, Sans-serif;
+	font-size: 1.5vw;
+	background-color: #000000;
+	display: inline-block;
+}
+
+a{ /* these are the different css code and styling for the links */
+	display: inline-block;
+	padding-bottom: 10px;
+	padding: 10px;
+}
+
+
+
+header{ /* these are the different  css code and styling for the div with the id main-div */
+	margin:20px;
+	width: 97%;
+	text-align: left;
+
+}
+
+
+.content figure figcaption img{ /* these are the different  css code and styling for the image kept in the "main" class div */
+	width:100%;
+
+}
+
+main p{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 1.5vw;
+	margin: 5px;
+	font-family:"Times New Roman", Georgia, Serif, Sans-serif;
+}
+
+
+h2{
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 3vw;
+	font-family:"Times New Roman", Georgia, Serif, Sans-serif;
+
+}
+
+
+main{ /* these are the different  css code and styling for the div with class main  */
+	width: 83%;
+	background-color: #2d1706;
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px;
+	font-family:"Times New Roman", Georgia, Serif, Sans-serif;
+}
+main div{
+	text-align: left;
+}
+
+main h3{
+	color: #ffffff;
+	font-weight: bold;
+	margin: 5px;
+	font-size: 2.5vw;
+}
+
+
+
+.father{
+	margin: 20px;
+}
+
+.father div{  /* these are the different  css code and styling for the div with class father which fathers to 3 divs within it  */
+	width: 31%;
+	background-color: #2d1706;
+	display: inline-block;
+	min-height: 100px;
+	text-align: center;
+	margin: 20px;
+	font-family:"Times New Roman", Georgia, Serif, Sans-serif;
+
+}
+
+.child1 img{
+	width:50%;
+	right: 0;
+	float: right;
+}
+
+.father p {
+	color: #ffffff;
+	font-size: 3vw;
+}
+
+.child2 img{
+	width:50%;
+	right: 0;
+	float: right;
+}
+.child3 img{
+	width:50%;
+	right: 0;
+	float: right;
+}
+
+.child1{
+	float:left;
+	width:100%;
+
+}
+
+
+.child2{
+	float:right;
+}
+
+
+.child3{
+	float:left;
+	width:100%;
+
+}
+
+.child3 ul li{
+	color: #ffffff;
+	font-size: 1.5vw;
+}
+
+
+footer {
+	background-color: #43220a;
+	border: 2px solid #1a0d04;
+	padding: 5px;
+	margin:20px;
+	text-align: center;
+	text-decoration: none;
+	font-family: "Times New Roman", Georgia, Serif, Sans-serif;
+	font-size: 1.5vw;
+}
+
+footer p{
+	color: #ffffff;
+}
+
+footer div{
+	color: #ffffff;
+
+}
+
+@media only screen and (min-width:150px) and (max-width:500px){
+
+	body{
+		width: 70%;
+	}
+
+.top-header{
+	font-family: "Times New Roman", Georgia, Serif, Sans-serif;  /* these are the different supported fonts for the header */
+	font-size: 5vw;  /* changes the font size, the reason i used em is because it can resize as the page resizes */
+	min-height: 40px;  /* this sets the min hight to 100px */
+	background:url('wallpaper.jpg');  /* this is the back-ground url, it selects the image and sets it to background. */
+	background-size: cover;  /* This set the image to cover the whole background.*/
+	opacity: 0.7;
+	width: 97%;  /* This sets the width of the page to 97%, also helpsm website viewing on mobile */
+	border:1px solid #43220a;  /* This sets the borders of the header to 1 px with a solid line and the color #00ffaa */
+	text-align: center;  /* This sets the text align to position center */
+	color: #e99a62;
+	margin:20px;
+	position: relative;
+
+
+}
+
+		nav{ /* here are the css i have selected for my nav bar. */
+
+	height:240px;
+}
+
+nav a{
+	font-size: 4vw;
+	display:block;
+	margin:auto;
+
+}
+nav ul{
+	padding-left:0;
+	width:100%;
+
+}
+
+nav ul li{
+	width:100%;
+	margin:0;
+	text-align:center;
+	font-size:1.5em;
+}
+
+nav a:hover{  /* these are the different  css code and styling i have for my nav bar when you hover over them */
+	text-align: center;
+	text-decoration: none;
+	font-size: 4vw;
+	display:block;
+
+}
+
+nav a:active{ /* these are the different  css code and styling i have for the nav bar links when they are active */
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	font-family: "Times New Roman", Georgia, Serif, Sans-serif;
+	font-size: 4vw;
+	background-color: #000000;
+	display:block;
+}
+main p{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 3vw;
+	margin: 5px;
+	font-family:"Times New Roman", Georgia, Serif, Sans-serif;
+}
+
+
+h2{
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 5vw;
+	font-family:"Times New Roman", Georgia, Serif, Sans-serif;
+
+}
+
+
+main{ /* these are the different  css code and styling for the div with class main  */
+	width: 83%;
+	background-color: #2d1706;
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px;
+	font-family:"Times New Roman", Georgia, Serif, Sans-serif;
+}
+main div{
+	text-align: left;
+}
+
+main h3{
+	color: #ffffff;
+	font-weight: bold;
+	margin: 5px;
+	font-size: 5vw;
+}
+
+
+
+.father{
+	margin: 20px;
+}
+
+.father div{  /* these are the different  css code and styling for the div with class father which fathers to 3 divs within it  */
+	width: 31%;
+	background-color: #2d1706;
+	display: inline-block;
+	min-height: 100px;
+	text-align: center;
+	margin: 20px;
+	font-family:"Times New Roman", Georgia, Serif, Sans-serif;
+
+}
+
+.child1 img{
+	width:50%;
+	right: 0;
+	float: right;
+}
+
+.father p {
+	color: #ffffff;
+	font-size: 3vw;
+}
+
+.child2 img{
+	width:50%;
+	right: 0;
+	float: right;
+}
+.child3 img{
+	width:50%;
+	right: 0;
+	float: right;
+}
+
+.child1{
+	float:left;
+	width:100%;
+
+}
+
+
+.child2{
+	float:right;
+}
+
+
+.child3{
+	float:left;
+	width:100%;
+
+}
+
+.child3 ul li{
+	color: #ffffff;
+	font-size: 3vw;
+}
+
+
+footer {
+	background-color: #43220a;
+	border: 2px solid #1a0d04;
+	padding: 5px;
+	margin:20px;
+	text-align: center;
+	text-decoration: none;
+	font-family: "Times New Roman", Georgia, Serif, Sans-serif;
+	font-size: 4vw;
+}
+
+footer p{
+	color: #ffffff;
+}
+
+footer div{
+	color: #ffffff;
+}
+}
