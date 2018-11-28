@@ -13,6 +13,7 @@ Mobiles development: This was an individual project to create an app for Android
 
 Pong: this was another embedded project on the LCP4088 board. I created a 1 player bong game. This project was really fun, I learned to develop in C for the first time. 
 
-Website (Part A and B): In my first year at university I made a full website using HTML and CSS. Later in the year for the second part of my assignment, I started to expand the website and used PHP and Javascript. This website includes forms, administration, logins and stores data into a database uses SQL.
+Website (Part A and B): In my first year at university I made a full website using HTML and CSS. Later in the year for the second part of my assignment, I started to expand the website and used PHP and Javascript. This website includes forms, administration, logins and stores data into a database uses SQL. Use the link below to navigate to my website
+http://unn-w15033021.newnumyspace.co.uk/assignmentB/homepage.html
 
 Ringbuffer and semaphore: these are two small areas I covered within my course in my second year at university. I used C to program for these projects and the LCP4088 board.
